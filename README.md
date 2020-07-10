@@ -10,5 +10,6 @@ This repo contains the source code of a simple java application used to demonstr
 ## Connect me via 
 [GitHub](https://github.com/khangse)
 2. [Facebook](https://www.facebook.com/profile.php?id=100008349272643)
+3. [Email](mail: khangnnse140188@fpt.edu.vn)
 
-#### @2020 by khangse 
+#### @2020 by khangse | FPT University - HCMC Campus
