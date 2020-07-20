@@ -24,7 +24,6 @@ public class MathUtilTest {
             // 2 thứ khớp nhau , mày xử lý nhưu dự kiến , đèn xanh , thông thường 
             //không như dự kiến , đèn đỏ là sai 
             assertEquals(120, khang.util.MathUtil.computeFactorial(5));
-//            assertEquals(720, khang.util.MathUtil.computeFactorial(7));
             assertEquals(1, khang.util.MathUtil.computeFactorial(0));
             assertEquals(1, khang.util.MathUtil.computeFactorial(1));
             assertEquals(2, khang.util.MathUtil.computeFactorial(2));
@@ -42,6 +41,7 @@ public class MathUtilTest {
         //trong khi được ném ra ngoại lệ hok phải là actual value để 
         //ta phải xài chiêu khác khi bắt ngoại lệ coi có đúng là ngoại lệ mình cần hok 
         computeFactorial(-5)  ;
+        assertEquals(720, khang.util.MathUtil.computeFactorial(7));
         
     }
     //code có thể còn tìm ẩn lỗi nhwung clean and build luôn ra file.jar nếu code không sai cú pháp 
