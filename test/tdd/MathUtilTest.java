@@ -42,7 +42,7 @@ public class MathUtilTest {
         //ta phải xài chiêu khác khi bắt ngoại lệ coi có đúng là ngoại lệ mình cần hok 
         computeFactorial(-5)  ;
         assertEquals(720, khang.util.MathUtil.computeFactorial(7));
-        
+        computeFactorial(16) ; // Vì giai thừa tăng rất nhanh nên không chơi quá 15 //
     }
     //code có thể còn tìm ẩn lỗi nhwung clean and build luôn ra file.jar nếu code không sai cú pháp 
     //vậy thì nguy hiểm quá đi , mình phải disable clean and build nếu code còn màu đỏ 
