@@ -5,8 +5,6 @@
  */
 package tdd;
 
-import com.sun.xml.internal.txw2.IllegalAnnotationException;
-import khang.util.MathUtil;
 import static khang.util.MathUtil.computeFactorial;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -35,7 +33,7 @@ public class MathUtilTest {
             //vì hàm ý : code phải chạy đúng cho mọi tình huống 
             //Ta chỉ cần nhìn vào xanh đỏ 
     }
-    @Test (expected = IllegalAnnotationException.class) //annotation dấu hiệu báo cho jvm và thư viện jar biết phải làm gì 
+    @Test (expected = IllegalArgumentException.class) //annotation dấu hiệu báo cho jvm và thư viện jar biết phải làm gì 
     //hàm này chứa các tình huốn cà chớn , vd cf [-5] , cf [16]
     public void testFailedCase () {
         // tao kỳ vọng mày ném ra ngoại lệ thf coi như code này mới ngon , vì -5 không tính được , phải chửi thôi ahihi 
