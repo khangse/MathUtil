@@ -40,7 +40,7 @@ public class MathUtilTest {
         //vì hàm này cần 2 value expected và actual 
         //trong khi được ném ra ngoại lệ hok phải là actual value để 
         //ta phải xài chiêu khác khi bắt ngoại lệ coi có đúng là ngoại lệ mình cần hok 
-//        computeFactorial(-5)  ;
+        computeFactorial(-5)  ;
 //        assertEquals(720, khang.util.MathUtil.computeFactorial(7));
         computeFactorial(16) ; // Vì giai thừa tăng rất nhanh nên không chơi quá 15 //
     }
