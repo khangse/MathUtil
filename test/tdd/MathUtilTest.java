@@ -24,7 +24,7 @@ public class MathUtilTest {
             // 2 thứ khớp nhau , mày xử lý nhưu dự kiến , đèn xanh , thông thường 
             //không như dự kiến , đèn đỏ là sai 
             assertEquals(120, khang.util.MathUtil.computeFactorial(5));
-            assertEquals(720, khang.util.MathUtil.computeFactorial(7));
+//            assertEquals(720, khang.util.MathUtil.computeFactorial(7));
             assertEquals(1, khang.util.MathUtil.computeFactorial(0));
             assertEquals(1, khang.util.MathUtil.computeFactorial(1));
             assertEquals(2, khang.util.MathUtil.computeFactorial(2));
